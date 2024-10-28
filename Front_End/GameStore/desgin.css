@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:normal;
+   
+      
+      
+}
+.header{
+    background-color: #edf4ed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 250px;
+}
+.logo{
+    width: 100px;
+}
+.btn{
+    background-color: #73aa73;
+   
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: #000000;
+}
+.btn:hover{
+    background-color: #ee626b;
+}
+.header_links a{
+    color: black;
+    text-decoration: none;
+    padding: 5px  20px;
+    border-radius: 15px;
+}
+.header_links a:hover{
+    background-color: #73aa73;
+}
+
+.landing-page{
+    background-color: #edf4ed;
+    padding: 25px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 60px 60px;
+
+}
+.landing-page-left-section{
+    width: 450px;
+}
+.landing-page-search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+  }
+  
+  .landing-page-search button {
+    position: absolute;
+    left: 400px;
+    height: 30px;
+  }
+
+
+.landing-page-image-container img{
+    border-radius: 25px;
+    width: 250px;
+}
+.trending-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trending-header h1 {
+    margin-top: 0;
+}
+
+.trending-cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    width: 300px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+.card .thumb {
+    border-radius: 20px 20px 0 0;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.card-info img {
+    width: 50px;
+}
